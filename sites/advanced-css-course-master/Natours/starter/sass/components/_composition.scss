@@ -1,0 +1,31 @@
+.composition{
+    
+    &__photo{
+        width:50%;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.404);
+        border-radius: 1rem;
+        position: relative;
+        transition: all .2s;
+
+        &:hover{
+            transform: scale(1.4);
+            box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.39);
+            z-index:10;
+            border: 1rem solid $color-primary;
+        }
+    }
+    &__photo--1{
+        left:7rem;
+        top:5rem;
+    }
+    &__photo--2{
+        left:14rem;
+        top:-1rem;
+    }
+    &__photo--3{
+        left:24rem;
+        top:-26rem;
+    }
+    
+}
+

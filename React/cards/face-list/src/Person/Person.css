@@ -1,0 +1,19 @@
+.Person {
+    margin:20px auto;
+    text-align: center;
+    width:40%;
+    padding:20px;
+    transition:all 0.3s;
+    background: rgba(128, 128, 128, 0.212);
+}
+
+.Person:hover{
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.473);
+}
+
+img{
+    height:65px;
+    width:65px;
+    border-radius: 50%;
+    border:2px solid black;
+}

@@ -1,0 +1,22 @@
+@import '../../index.scss';
+
+.tour-grid{
+    
+    padding:2rem;
+    margin: auto;
+    width:85%;
+}
+
+@media screen and (min-width:768px){
+    .tour-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:1120px){
+    .tour-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

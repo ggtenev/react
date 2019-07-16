@@ -1,0 +1,50 @@
+.Die{
+  font-size: 200px;
+  color:rgba(255, 2, 2, 0.904);
+  display: inline-block;
+  margin:2rem 3rem;
+}
+.Button{
+  background-color: rgba(43, 228, 18, 0.719); /* Green */
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.Button:disabled,
+.Button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.shaking {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-11px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(12px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-14px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

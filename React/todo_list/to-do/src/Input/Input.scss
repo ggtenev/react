@@ -1,0 +1,33 @@
+.input{
+    width:70%;
+    border:1px solid grey;
+    padding:1rem;
+    margin: 1rem auto;
+
+    .fas{
+        color:white;
+        background: #5cb85c;
+        transform: scale(2);
+        margin-right:0.55rem;
+        padding:0.1rem;
+        
+    }
+    .input-field{
+        padding:0.7rem;
+        padding-bottom:0.5rem;
+        margin: 1rem auto;
+        width:80%;
+        
+    }
+    .add-item-btn{
+        padding:1rem;
+        width:30%;
+        color:white;
+        background: #428bca;
+        text-transform: uppercase;
+        cursor: pointer;
+
+    }
+}
+
+

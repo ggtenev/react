@@ -1,0 +1,17 @@
+ *{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ $primaryBlack:#222;
+ $primaryWhite:#fff;
+ $primaryGreen:#82b340;
+ $primaryGrey:#ececec;
+ $primaryRed:rgb(255, 10, 10);
+
+ body{
+     background: $primaryWhite;
+     color:$primaryBlack;
+     font-family: "Open Sans", sans-serif;
+ }

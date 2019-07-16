@@ -1,0 +1,18 @@
+.todo{
+    border:1px solid grey;
+    padding:1.5rem;
+    width:70%;
+    margin:2rem auto;
+    position: relative;
+    
+
+    .fass{
+        float:right;
+        color:red;
+        position: absolute;
+        top:17%;
+        right:1rem;
+        font-size:1.5rem;
+        cursor: pointer;
+    }
+}

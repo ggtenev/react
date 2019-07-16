@@ -1,0 +1,33 @@
+@keyframes moveInLeft{
+    0%{
+        opacity:0;
+        transform: translateX(-15rem);
+    }
+
+    100%{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInRight{
+    0%{
+        opacity:0;
+        transform: translateX(15rem);
+    }
+
+    100%{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes cta-btn-hover{
+    0%{
+        transform: scale(1.03);       
+    }
+    
+    100%{
+        transform: scale(1);     
+    }
+}
